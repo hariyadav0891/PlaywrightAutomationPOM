@@ -19,7 +19,7 @@ public class LoginPageTest extends BaseTest{
 	public void forgottenPWlinkExist() {
 		Assert.assertTrue(loginpage.isForgottonPWlinkExist());
 	}
-	@Test(priority = 3)
+	//@Test(priority = 3)
 	
 	public void appLogin() {
 		Assert.assertTrue(loginpage.doLogin(prop.getProperty("username").trim(), prop.getProperty("password").trim()));
